@@ -1,0 +1,28 @@
+PRIVACY POLICY - On Page SEO Quick Fix
+
+DATA COLLECTION: NONE
+On Page SEO Quick Fix does not collect, store, or transmit any personal data, browsing information, or website content.
+
+HOW IT WORKS:
+- All SEO analysis is performed locally in your browser
+- No data is sent to external servers or third-party services
+- No tracking, analytics, or cookies are used
+- No information is stored about pages you visit
+
+PERMISSIONS:
+The extension uses minimal permissions (activeTab, scripting, tabs, sidePanel) exclusively for SEO analysis functionality. These permissions are required to:
+- Access the current webpage for analysis
+- Execute analysis scripts
+- Display results in the side panel
+
+THIRD-PARTY SERVICES: NONE
+This extension does not integrate with any third-party services or APIs.
+
+YOUR PRIVACY:
+Your privacy is completely protected. All analysis happens on your device, and no data leaves your browser.
+
+CONTACT:
+For questions about privacy, contact: [Your Support Email/URL]
+
+Last Updated: [Date]
+

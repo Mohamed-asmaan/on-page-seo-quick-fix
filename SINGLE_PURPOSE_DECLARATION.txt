@@ -1,0 +1,18 @@
+SINGLE PURPOSE DECLARATION
+
+On Page SEO Quick Fix has a single, clear purpose:
+
+To analyze and provide comprehensive on-page SEO insights for web pages directly in the user's browser, helping users understand and improve their website's search engine optimization.
+
+The extension performs real-time SEO analysis including:
+- Page title and meta description analysis
+- Heading structure evaluation
+- Image optimization checks
+- Link analysis
+- Canonical tag validation
+- Robots meta tag checking
+- Open Graph tags detection
+- Structured data (JSON-LD) validation
+
+All analysis is performed locally in the browser. No data is collected, stored, or transmitted to external servers.
+

@@ -1,0 +1,63 @@
+═══════════════════════════════════════════════════════════
+CHROME WEB STORE - DATA USAGE FORM - QUICK FILL GUIDE
+═══════════════════════════════════════════════════════════
+
+SECTION 1: What user data do you plan to collect?
+───────────────────────────────────────────────────
+ACTION: LEAVE ALL CHECKBOXES UNCHECKED ❌
+
+Do NOT check any of these:
+❌ Personally identifiable information
+❌ Health information
+❌ Financial and payment information
+❌ Authentication information
+❌ Personal communications
+❌ Location
+❌ Web history
+❌ User activity
+❌ Website content
+
+REASON: Extension collects NO data - all analysis is local.
+
+
+SECTION 2: I certify that the following disclosures are true:
+─────────────────────────────────────────────────────────────
+ACTION: CHECK ALL THREE BOXES ✅
+
+✅ "I do not sell or transfer user data to third parties, outside of the approved use cases"
+✅ "I do not use or transfer user data for purposes that are unrelated to my item's single purpose"
+✅ "I do not use or transfer user data to determine creditworthiness or for lending purposes"
+
+REASON: All true - no data is collected, so nothing is sold/transferred/used.
+
+
+SECTION 3: Privacy Policy URL
+──────────────────────────────
+ACTION: Host privacy-policy.html online and paste the URL
+
+OPTIONS:
+1. GitHub Pages (Free)
+   - Upload privacy-policy.html to GitHub
+   - Enable GitHub Pages
+   - URL: https://yourusername.github.io/repo/privacy-policy.html
+
+2. Your Website
+   - Upload to your domain
+   - URL: https://yourdomain.com/privacy-policy.html
+
+3. Netlify/Vercel (Free)
+   - Upload HTML file
+   - Get free hosting URL
+
+REQUIRED: The URL must be publicly accessible before submission.
+
+
+═══════════════════════════════════════════════════════════
+SUMMARY:
+═══════════════════════════════════════════════════════════
+1. Data Collection: ❌ Nothing checked
+2. Certifications: ✅ All three checked
+3. Privacy Policy: 📄 Host privacy-policy.html and provide URL
+
+═══════════════════════════════════════════════════════════
+

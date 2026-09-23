@@ -1,0 +1,53 @@
+PERMISSION JUSTIFICATIONS FOR CHROME WEB STORE
+
+===========================================
+1. SCRIPTING JUSTIFICATION
+===========================================
+The scripting permission is required to inject and execute SEO analysis code on the current webpage. This allows the extension to collect SEO data such as page titles, meta descriptions, headings, images, links, canonical tags, robots meta tags, Open Graph tags, and JSON-LD structured data directly from the page's DOM. Without this permission, the extension cannot perform its core function of analyzing on-page SEO elements.
+
+===========================================
+2. TABS JUSTIFICATION
+===========================================
+The tabs permission is required to identify the currently active tab and query its URL. This allows the extension to determine which webpage the user wants to analyze and ensure the SEO analysis is performed on the correct page. It also enables the extension to check if the current tab is a valid webpage (not a Chrome internal page) before attempting analysis.
+
+===========================================
+3. ACTIVETAB JUSTIFICATION
+===========================================
+The activeTab permission is required to access the content of the currently active tab for SEO analysis. This permission allows the extension to read the page's HTML structure, meta tags, and other SEO-relevant elements only when the user explicitly clicks the extension icon. It ensures the extension can only access the page the user is currently viewing, maintaining user privacy while enabling the core SEO analysis functionality.
+
+===========================================
+4. SIDEPANEL JUSTIFICATION
+===========================================
+The sidePanel permission is required to display the SEO analysis results in a dedicated side panel within the browser. This provides a clean, non-intrusive interface for users to view their SEO score, issues, and recommendations without blocking the main webpage content. The side panel allows users to keep the analysis visible while browsing, making it easy to reference SEO insights while working on their website.
+
+===========================================
+5. HOST PERMISSION JUSTIFICATION
+===========================================
+The host permission (<all_urls>) is required to allow the extension to analyze SEO data on any website the user visits. Since SEO analysis needs to work across all types of websites (e-commerce, blogs, corporate sites, etc.), this broad permission is necessary to fulfill the extension's single purpose. The extension only accesses pages when the user explicitly requests analysis by clicking the extension icon, and all analysis is performed locally without transmitting any data to external servers.
+
+===========================================
+6. REMOTE CODE QUESTION
+===========================================
+Answer: NO, I am not using remote code
+
+The extension uses only code that is bundled within the extension package. All JavaScript code is included in the extension's build output and executed locally. There are no external script references, no dynamic code evaluation, and no remote code loading. All SEO analysis functionality is self-contained within the extension package.
+
+===========================================
+QUICK COPY-PASTE VERSIONS (Shorter)
+===========================================
+
+SCRIPTING (Short):
+Required to inject SEO analysis code on webpages to collect page titles, meta tags, headings, images, links, and structured data from the DOM for SEO analysis.
+
+TABS (Short):
+Required to identify the active tab and its URL to determine which webpage to analyze and validate that it's a valid webpage before performing SEO analysis.
+
+ACTIVETAB (Short):
+Required to access the content of the currently active tab when the user clicks the extension icon, allowing the extension to read HTML structure and SEO elements for analysis.
+
+SIDEPANEL (Short):
+Required to display SEO analysis results in a dedicated side panel, providing a clean interface for users to view their SEO score and recommendations without blocking the main webpage.
+
+HOST PERMISSION (Short):
+Required to allow SEO analysis on any website the user visits. The extension only accesses pages when explicitly requested by the user, and all analysis is performed locally without data transmission.
+
